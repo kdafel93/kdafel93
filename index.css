@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Dancing+Script:wght@600&family=Great+Vibes&display=swap');
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+/* this is for the nav bar*/
+#nav-bar1 {
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	text-align: center;
+	width: 100vw;
+	z-index: 2;
+}
+#nav-bar1 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav-bar1 ul li {
+	display: inline-block;
+}
+
+#nav-bar1 ul li a {
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: sans-serif;
+	
+}
+
+#nav-bar1 ul li a:hover {
+	background-color: darkblue;
+}
+
+#background-image {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	opacity: 0.25;
+	background-image: url("Images/front.png");
+	background-size: cover;
+	background-position: cover;
+}
+
+#logo{
+	opacity: 100%;
+	width: 400px;
+	height: 200px;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+#logo-text{
+	font-family: honeystar;
+	margin-left: 250px;
+	margin-top: 50px;
+	font-size: 43.5px;
+	font-weight: 800;
+	color: green;
+	text-shadow: 1px 1px 1px white;
+}
+
+#social-media{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 200px;
+	padding-top: 25px;
+}
+
+
+
+.fa {
+	padding: 10px ;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 500px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+	opacity: 0.7;
+  }
+
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+	margin-right: 10px;
+	opacity: 0.98;
+
+  }
+
+  .fa-instagram{
+	background: red;
+	color: #ffffff;
+	margin-right: 10px;
+	opacity: 0.98;
+  }
+
+  .fa-whatsapp{
+	background: green;
+	color: #ffffff;
+	margin-right: 10px;
+	opacity: 0.98;
+  }
+
+  .fa-google{
+	background: red;
+	color: white;
+	margin-right: 10px;
+	opacity: 0.98;
+  }
+
+form{
+	width: 300px;
+	margin-left: 550px;
+}
+
+#search-icon{
+	background-color: #ffffff;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+
+#search-input{
+	height: 50px;
+	border-radius: 10px;
+}
+
+  #nav-bar2{
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	text-align: center;
+	width: 100vw;
+	height: 35px;
+	z-index: 2;
+	margin-top: 50px;
+	background-color: #0e452a;
+	padding-bottom: 25px;
+	margin-bottom: 20px;
+  }
+
+   #nav-bar2 li.show {
+    display: block;
+  }
+
+  #nav-bar2 ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+
+  #nav-bar2 ul li {
+	display: inline-block;
+	border-right: 1px solid #10724a;
+	width: 128px;
+	margin-left: 5px;
+  }
+
+  #nav-bar2 ul li a {
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 16px;
+	margin-top: 5px;
+  }
+
+  .about_us{
+	padding-top: 30px;
+	width: 100px;
+	position: relative;
+	z-index: 2;
+  }
+
+  .about-head{
+	margin-left: 630px;
+	font-family: 'Beau Rivage', cursive;
+	color: #0e452a;
+	font-weight: 600;
+	font-size: 45px;
+  }
+
+  .text-center{
+	width: 800px;
+	margin-left: 300px;
+	padding-bottom: 20px;
+	font-family: 'Beau Rivage', cursive;
+	font-size: 30px;
+	color: #0e452a;
+	font-weight: 600;
+	padding-top: 10px;
+  }
+  
+
+
+  #container{
+	padding-top: 25px;
+	margin-left: 125px;
+	padding-bottom: 50px;
+	opacity: 0.9;
+  }
+
+  #container-img{
+	padding-bottom: 25px;
+	margin-left: 65px;
+  }
+
+  #front-img{
+	width: 300px;
+	height: 250px;
+	margin-left: 30px;
+	opacity: 0.9;
+	border: 4px solid black;
+  }
+
+  #btn{
+	background-color: #10724a;
+	color: #ffffff;
+	opacity: 0.98;
+	border-radius: 64px;
+	font-size: 23px;
+	margin-left: 15px;
+	padding: 5px 10px;
+	width: 202px;
+	height: 48px;
+  }
+
+  footer{
+	padding-top: 15px;
+	background-color: #0e452a;
+	opacity: 0.98;
+	color: #ffffff;
+  }
+
+
+  #footer-logo{
+	opacity: 100%;
+	width: 250px;
+	height: 175px;
+	background-color: transparent;
+  }
+
+
+
+  #icon{
+	font-size: 15px;
+	width: 75px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 500px;
+  }
+
+  #social-media1{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-right: 350px;
+	padding-top: 40px;
+  }
+
+  footer a{
+	text-decoration: none;
+	color: white;
+  }
+
+  footer a:hover{
+	color: #10724a;
+  }
+
+  #footer-heading{
+	padding-top: 10px;
+	padding-bottom: 10px;
+  }
+
+
+
